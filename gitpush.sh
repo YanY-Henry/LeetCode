@@ -16,8 +16,8 @@ check_args() {
 }
 
 check_file() {
-    if git ls-files --error-unmatch "code.$1.py" >/dev/null 2>&1; then
-        echo "Error: code.$1.py is already being tracked by git."
+    if git ls-files --error-unmatch "code/$1.py" >/dev/null 2>&1; then
+        echo "Error: $1.py is already being tracked by git."
         exit 1
     fi
 }
@@ -43,6 +43,7 @@ echo "| $num | $title | [Code](https://github.com/YanY-Henry/LeetCode/blob/main/
 
 
 # update GitHub repo
+git status
 git add .
 git commit -m "$current_date-$num"
 git push origin main
