@@ -39,7 +39,7 @@ current_date=$(date +%Y.%m.%d)
 
 
 # update README.md
-echo "| $num | $title | [Code](https://github.com/YanY-Henry/LeetCode/blob/main/code/$num.py) | $difficulty |" >> README.md
+echo "\n| $num | $title | [Code](https://github.com/YanY-Henry/LeetCode/blob/main/code/$num.py) | $difficulty |" >> README.md
 
 
 # update GitHub repo
