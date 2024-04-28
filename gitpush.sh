@@ -10,7 +10,7 @@ difficulty=$3
 # check parameters
 check_args() {
     if [ $# -ne 3 ]; then
-        echo "Usage: $0 num title difficulty"
+        echo "Usage: $0 {num} \"{title}\" {difficulty}"
         exit 1
     fi
 }
