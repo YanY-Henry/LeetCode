@@ -1,4 +1,4 @@
-# LeetCode Problem's Solutions
+# LeetCode Problems' Solutions
 
 Use `./gitpush.sh {num} "{title}" {difficulty}` to update the GitHub repo.  
 e.g. `./gitpush.sh 0001 "Two Sum/两数之和" Easy`
