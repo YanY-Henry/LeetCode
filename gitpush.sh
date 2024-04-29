@@ -2,7 +2,7 @@
 
 
 # parameters
-num=$1
+num_0=$1
 title="$2"
 difficulty=$3
 
@@ -73,5 +73,5 @@ done
 # update GitHub repo
 git status
 git add .
-git commit -m "$current_date-$num"
+git commit -m "$current_date-$num_0"
 git push origin main
