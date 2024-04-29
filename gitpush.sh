@@ -44,7 +44,7 @@ existing_solutions=$(sed -n '/^\| #\|^---/p' README.md)
 
 # extract solution information from existing solutions
 while read -r line; do
-    if [[ "$line" =~ ^\| [0-9]{4} \| ]]; then
+    if echo "$line" | grep -qE '^\| [0-9]{4} \|'; then
         num=$(echo $line | cut -d '|' -f 2)
         title=$(echo $line | cut -d '|' -f 3 | sed 's/^"|"$//g')
         code_link=$(echo $line | cut -d '|' -f 4 | sed 's/^"|"$//g')
