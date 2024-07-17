@@ -38,7 +38,7 @@ class Solution:
 
 # set()去掉重复项
 # 在set中直接进行查找
-class Solution:
+class Solution_opt:
     def longestConsecutive(self, nums: List[int]) -> int:
         max_length = 0
         nums = set(nums)
