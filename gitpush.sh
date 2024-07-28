@@ -29,7 +29,7 @@ if [[ "$difficulty" != "Easy" && "$difficulty" != "Medium" && "$difficulty" != "
 fi
 
 # 更新 README.md 文件
-python update_readme.py "$num" "$title" "$difficulty"
+python gitpush.py "$num" "$title" "$difficulty"
 
 # Git 提交信息
 commit_message="$(date +%Y%m%d)-$num"
