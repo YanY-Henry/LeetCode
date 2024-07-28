@@ -17,7 +17,7 @@ if ! [[ "$num" =~ ^[0-9]+$ ]] || [ "$num" -le 0 ] || [ "$num" -ge 10000 ]; then
 fi
 
 # 检查 title 的格式是否符合要求
-if ! [[ "$title" =~ ^[A-Za-z ]+\/[一-龥]+$ ]]; then
+if ! echo "$title" | grep -E "^[A-Za-z ]+/[一-龥]+$" > /dev/null; then
     echo "Error: title must be in the format 'English/Chinese', e.g., 'Two Sum/两数之和'"
     exit 1
 fi
