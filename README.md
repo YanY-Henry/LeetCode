@@ -7,6 +7,7 @@ e.g. `./gitpush.sh 0001 "Two Sum/两数之和" Easy`
 |:-:|:-:|:-:|:-:|
 | 0001 | Two Sum/两数之和 | [Python](https://github.com/YanY-Henry/LeetCode/blob/main/code/0001.py) | Easy |
 | 0002 | Add Two Numbers/两数相加 | [Python](https://github.com/YanY-Henry/LeetCode/blob/main/code/0002.py) | Medium |
+| 0013 | Roman to Integer/罗马数字转整数 | [Python](https://github.com/YanY-Henry/LeetCode/blob/main/code/0013.py) | Easy |
 | 0020 | Valid Parentheses/有效的括号 | [Python](https://github.com/YanY-Henry/LeetCode/blob/main/code/0020.py) | Easy |
 | 0088 | Merge Sorted Array/合并两个有序数组 | [Python](https://github.com/YanY-Henry/LeetCode/blob/main/code/0088.py) | Easy |
 | 0100 | Same Tree/相同的树 | [Python](https://github.com/YanY-Henry/LeetCode/blob/main/code/0100.py) | Easy |
